@@ -1,0 +1,104 @@
+.navbar-sala-professores {
+  background-color: #ecc653;
+  border-color: #f9bf0f;
+}
+
+.navbar-sala-professores .navbar-brand {
+  color: #000000;
+}
+
+.navbar-sala-professores .navbar-brand:hover,
+.navbar-sala-professores .navbar-brand:focus {
+  color: #8c0300;
+  background-color: transparent;
+}
+
+.navbar-sala-professores .navbar-text {
+  color: #000000;
+}
+
+.navbar-sala-professores .navbar-nav > li > a {
+  color: #000000;
+}
+
+.navbar-sala-professores .navbar-nav > li > a:hover,
+.navbar-sala-professores .navbar-nav > li > a:focus {
+  color: #8c0300;
+  background-color: transparent;
+}
+
+.navbar-sala-professores .navbar-nav > .active > a,
+.navbar-sala-professores .navbar-nav > .active > a:hover,
+.navbar-sala-professores .navbar-nav > .active > a:focus {
+  color: #8c0300;
+  background-color: #f9bf0f;
+}
+
+.navbar-sala-professores .navbar-nav > .disabled > a,
+.navbar-sala-professores .navbar-nav > .disabled > a:hover,
+.navbar-sala-professores .navbar-nav > .disabled > a:focus {
+  color: #444444;
+  background-color: transparent;
+}
+
+.navbar-sala-professores .navbar-toggle {
+  border-color: #333333;
+}
+
+.navbar-sala-professores .navbar-toggle:hover,
+.navbar-sala-professores .navbar-toggle:focus {
+  background-color: #333333;
+}
+
+.navbar-sala-professores .navbar-toggle .icon-bar {
+  background-color: #000000;
+}
+
+.navbar-sala-professores .navbar-collapse,
+.navbar-sala-professores .navbar-form {
+  border-color: #101010;
+}
+
+.navbar-sala-professores .navbar-nav > .open > a,
+.navbar-sala-professores .navbar-nav > .open > a:hover,
+.navbar-sala-professores .navbar-nav > .open > a:focus {
+  color: #8c0300;
+  background-color: #f9bf0f;
+}
+
+@media (max-width: 767px) {
+  .navbar-sala-professores .navbar-nav .open .dropdown-menu > .dropdown-header {
+    border-color: #f9bf0f;
+  }
+  .navbar-sala-professores .navbar-nav .open .dropdown-menu .divider {
+    background-color: #f9bf0f;
+  }
+  .navbar-sala-professores .navbar-nav .open .dropdown-menu > li > a {
+    color: #000000;
+  }
+  .navbar-sala-professores .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-sala-professores .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #8c0300;
+    background-color: transparent;
+  }
+  .navbar-sala-professores .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-sala-professores .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-sala-professores .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #8c0300;
+    background-color: #f9bf0f;
+  }
+  .navbar-sala-professores .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-sala-professores .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-sala-professores .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #444444;
+    background-color: transparent;
+  }
+}
+
+.navbar-sala-professores .navbar-link {
+  color: #000000;
+}
+
+.navbar-sala-professores .navbar-link:hover {
+  color: #8c0300;
+}
